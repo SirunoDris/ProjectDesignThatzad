@@ -1,0 +1,177 @@
+/*------------ General ------------ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Avant-Garde-Gothic",Arial;
+    color: var(--texto1);
+}
+
+a{
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+img{
+    width: auto ;
+}
+
+hr{ /*horizontal line*/
+
+}
+
+.vl{ /*vertical line*/
+
+}
+
+/*--- BUTTONS ---*/
+.button{
+    background-color: var(--primary);
+    text-align: center;
+}
+
+.bt1{
+    width: 358px;
+    height: 57px;
+}
+
+.bt2{
+    width: 202px;
+    height: 47px;
+    border: 3px var(--blanco);
+    background-color: #004e5c;
+}
+
+.bt3{
+    width: 274px;
+    height: 57px;
+}
+
+
+/* ---- H1 ---- */
+h1{
+    font-family: "Avant-Garde-Gothic-Bold";
+    font-size: 64px;    
+}
+
+.h12{
+    font-size: 36px;
+}
+
+.h13{
+    font-size: 31px;
+}
+/* ---- /// ---- */
+
+
+h2{
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+/* ---- H3 ---- */
+h3{
+    font-family: "Avant-Garde-Gothic-Bold";
+    text-align: center;
+    color: var(--texto2);
+    font-size: 31px;
+}
+
+
+.h32{
+    font-size:  14px;
+    color: var(--blanco);
+}
+
+/* ---- // ---- */
+
+/* ---- H4 ---- */
+h4{
+    font-family: "Manus";
+    font-weight: lighter;
+    text-align: center;
+    font-size: 36px;
+}
+
+.h41{
+    font-size: 48px;
+}
+
+.h42{
+    color: var(--blanco);
+}
+/* ---- /// ---- */
+
+h5{
+    font-size: 22px;
+}
+
+/* ---- TEXT p ---- */
+p{
+    font-size: 14px;
+}
+.p1{
+    font-size: 18px;
+}
+
+/* ---- // ---- */
+
+
+/*---------------- HEADER ------------- */
+header{}
+.hbox{}
+.iheader{
+    width: 100%;
+}
+.headtext{}
+
+/* ---------------- BODY --------------- */
+#mainbody{}
+
+/* ---Section1 --- */
+.box1{}
+.text1{}
+
+.pic1{}
+.button{}
+
+
+/*--------------- FOOTER --------------- */
+#footer{
+    background-image: url(img/footer.png);
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    color: var(--blanco);
+    
+}
+
+
+
+
+/*---- Colores ---- */
+:root{
+    --primary: #00a8a2;
+    --fondo1: #004e5c;
+    --blanco: #fff;
+    --texto1: #024e5c;
+    --texto2: #ff9710;
+}
+
+/*---- Fuentes ---- */
+@font-face{
+    font-family: Avant-Garde-Gothic;
+    src: url(fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bk.eot), url(fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bk.ttf);
+}
+
+@font-face{
+    font-family: Avant-Garde-Gothic-Bold;
+    src: url(fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bold.eot), url(fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bold.ttf);
+}
+
+@font-face {
+    font-family: Manus;
+    src: url(fonts/Manus/MNS_TRIAL.otf),url(fonts/Manus/MNS_TRIAL.ttf);
+}
