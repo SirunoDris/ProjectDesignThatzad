@@ -1,0 +1,239 @@
+/*------------ General ------------ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "";
+    color:var(--texto1);
+}
+
+
+
+img{
+    width: auto ;
+}
+
+.hr{
+    background-color: var(--linea);
+    height: 0.5px;
+    width: 60%;
+    
+}
+
+.vl{ /*vertical line*/
+
+}
+
+/*--- BUTTONS ---*/
+.button{
+    background-color: var(--primary);
+    text-align: center;
+}
+
+.bt1{
+    width: 358px;
+    height: 57px;
+}
+
+.bt2{
+    display: flex;
+    width: 202px;
+    height: 47px;
+    border: 3px solid var(--blanco);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Avant-Garde-Gothic-Bold";
+    font-size: 22px;
+}
+
+.bt3{
+    width: 274px;
+    height: 57px;
+}
+
+a{
+    font-family: "Avant-Garde-Gothic";
+    text-align: center;
+}
+
+/* ---- H1 ---- */
+h1{
+    font-family: "Avant-Garde-Gothic-Bold";
+    font-size: 64px;  
+  
+}
+
+.h12{
+    font-size: 36px;
+    color: var(--blanco);
+    margin: 30px;
+}
+
+.h13{
+    font-size: 31px;
+}
+/* ---- /// ---- */
+
+
+h2{
+    font-family: "Avant-Garde-Gothic";
+    font-weight: lighter;
+    font-size: 36px;
+
+}
+
+/* ---- H3 ---- */
+h3{
+    font-family: "Avant-Garde-Gothic-Bold";
+    color: var(--texto2);
+    font-size: 31px;
+}
+
+.h31{
+    font-size: 36px;
+    color: var(--texto1);
+}
+
+.h32{
+    font-size:  14px;
+    color: var(--blanco);
+}
+
+.planta{
+    background-image: url(../img/vectors&logos/hoja1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 50%;
+    height: 500px;
+    
+}
+
+
+/* ---- // ---- */
+
+/* ---- H4 ---- */
+h4{
+    font-family: "Manus";
+    font-weight: lighter;
+    font-size: 36px !important;
+}
+
+.h41{
+    font-size: 48px;
+}
+
+.h42{
+    color: var(--blanco);
+}
+/* ---- /// ---- */
+
+h5{
+    font-family: "Avant-Garde-Gothic";
+    font-size: 22px;
+}
+
+/* ---- TEXT p ---- */
+p{
+    font-family: "Avant-Garde-Gothic";
+    font-size: 14px;
+}
+.p1{
+    font-size: 18px;
+}
+
+/* ---- // ---- */
+
+
+/*---------------- HEADER ------------- */
+header{
+    display: flex;
+    justify-content: center;
+}
+.hbox{
+    width: 90%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.iheader{ /*img header*/
+    width: 100%;
+}
+.headtext{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ht1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ht1 img{
+    /*color: var(--blanco);*/
+    width: 150px;
+}
+.arrow{
+    width: 30px;
+}
+
+/* ---------------- BODY --------------- */
+
+
+/* ---Section2 --- */
+.seccion2{
+    background-color: var(--fondo1);
+    background-image: url(../img/fondo1.png);
+    height: 500px;
+}
+
+.box2{
+    
+    
+}
+
+/*--------------- FOOTER --------------- */
+#footer{
+    background-image: url(../img/footer.png);
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    color: var(--blanco);
+    
+}
+
+
+
+
+/*---- Colores ---- */
+:root{
+    --primary: #00a8a2;
+    --fondo1: #004e5c;
+    --blanco: #fff;
+    --texto1: #024e5c;
+    --texto2: #ff9710;
+    --linea: #66959D;
+}
+
+/*---- Fuentes ---- */
+@font-face{
+    font-family: Avant-Garde-Gothic;
+    src: url(../fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bk.eot), url(../fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bk.ttf);
+}
+
+@font-face{
+    font-family: Avant-Garde-Gothic-Bold;
+    src: url(../fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bold.eot), url(../fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bold.ttf);
+}
+
+@font-face {
+    font-family: Manus;
+    src: url(../fonts/Manus/MNS_TRIAL.otf),url(../fonts/Manus/MNS_TRIAL.ttf);
+}
+
