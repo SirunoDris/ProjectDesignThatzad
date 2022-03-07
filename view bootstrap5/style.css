@@ -116,6 +116,7 @@ h4{
 
 .h41{
     font-size: 48px;
+    margin: 40px 0px;
 }
 
 .h42{
@@ -151,10 +152,17 @@ header{
 }
 .headtext{
     width: 60%;
-    text-align: center;
-   
+    text-align: center;   
 }
 
+.textshadow{
+    text-shadow: 2px 2px #494949; 
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
 
 .ht1 img{
     /*color: var(--blanco);*/
@@ -164,6 +172,12 @@ header{
     width: 30px;
 }
 
+.logo1{
+    width: 150px;
+}
+
+.introtext{
+}
 /* ---------------- BODY --------------- */
 
 /* ---SECTION 2 --- */
