@@ -184,12 +184,12 @@ header{
 .seccion2{
     width: 100%;
     background-color: var(--fondo1);
-    background-image: url(../img/fondo1.png);
+    background-image: url( img/fondo1.png);
     height: 500px;
 }
 
 .planta{ /*El fondo */
-    background-image: url(../img/vectors&logos/hoja1.png);
+    background-image: url( img/vectors&logos/hoja1.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 50%;
@@ -197,14 +197,14 @@ header{
 }
 
 .planta:nth-child(2){
-    background-image: url(../img/vectors&logos/hoja2.png);
+    background-image: url( img/vectors&logos/hoja2.png);
 }
 
 
 /*--------------- FOOTER --------------- */
 #footer{
     width: 100%;
-    background-image: url(../img/footer.png);
+    background-image: url( img/footer.png);
     background-size: 100% 600px;
     background-repeat: no-repeat;
     color: var(--blanco);
@@ -230,16 +230,16 @@ header{
 /*---- Fuentes ---- */
 @font-face{
     font-family: Avant-Garde-Gothic;
-    src: url(../fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bk.eot), url(../fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bk.ttf);
+    src: url( fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bk.eot), url( fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bk.ttf);
 }
 
 @font-face{
     font-family: Avant-Garde-Gothic-Bold;
-    src: url(../fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bold.eot), url(../fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bold.ttf);
+    src: url( fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bold.eot), url( fonts/ITCAvantGardeGothic/ITCAvantGardeStd-Bold.ttf);
 }
 
 @font-face {
     font-family: Manus;
-    src: url(../fonts/Manus/MNS_TRIAL.otf),url(../fonts/Manus/MNS_TRIAL.ttf);
+    src: url( fonts/Manus/MNS_TRIAL.otf),url( fonts/Manus/MNS_TRIAL.ttf);
 }
 
