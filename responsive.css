@@ -1,21 +1,3 @@
-@media  screen and (max-width: 900px){
-    p{
-        font-family: "Avant-Garde-Gothic";
-        font-size: 12px;
-        margin: 0 !important;
-    }
-    .p1{
-        font-size: 15px;
-    }
-    .h31{
-        font-size: 30px;
-        margin-top: 10%;
-    }
-    h4{font-size: medium;}
-    
-    .h42{font-size: 45px;}
-}
-
 @media  screen and (max-width: 800px){
     .vl{display: none;}
     header{
@@ -49,7 +31,6 @@
         .hr{
             display: none !important;
         }
-    /*--- Section2 ---*/
     /*--- Section3 ---*/
         .box3{
             width: 100%;
@@ -61,5 +42,16 @@
             width: ;
         }
         
+    /*--- Section4 ---*/
+    .seccion4{
+        height: 500px;
+    }
 
+    /*--- FOOTER ---*/
+    .footitle{
+        flex-direction: column !important;
+    }
+    .vl2{
+        display: none;
+    }
 }

@@ -45,8 +45,7 @@ img{
     width: 70%;
     height: 57px;
     z-index: 10;
-    margin-top: 275px;
-    
+    margin-top: 300px;
 }
 
 .bt2{
@@ -62,12 +61,12 @@ img{
     width: 274px;
     height: 57px;
     z-index: 10;
-    margin-top: 250px;  
+    margin-top: 105%;  
 }
 
 .bt4{
     width: 274px;
-    height: 57px; 
+    height: 50px !important; 
 }
 
 a{
@@ -112,7 +111,7 @@ h3{
 }
 
 .h31{
-    font-size: 228  %;
+    font-size: 228%;
     color: var(--texto1);
     margin-top: 1%;
 }
@@ -154,9 +153,7 @@ p{
 .p1{
     font-size: 17px;
 }
-
 /* ---- // ---- */
-
 
 /*---------------- HEADER ------------- */
 
@@ -175,7 +172,7 @@ header{
     justify-content: end;
     flex-direction: column;
     align-items: center;
-    height: 350px;
+    height: 380px;
 }
 
 .ht1 img{
@@ -194,10 +191,7 @@ header{
     width: 150px;
 }
 
-.introtext{
-}
 /* ---------------- BODY --------------- */
-
 /* ---SECTION 1 --- */
 .planta{ /*El fondo */
     background-image: url( img/vectors&logos/hoja1.png);
@@ -215,9 +209,6 @@ header{
     position: absolute;
     width: 30%;
 }
-
-
-
 
 /* --- SECTION 2 --- */
 .seccion2{
@@ -261,7 +252,7 @@ header{
 /* --- SECTION4 --- */
 
 .seccion4{
-    height: 800px;
+    height: 850px;
     
 }
 
