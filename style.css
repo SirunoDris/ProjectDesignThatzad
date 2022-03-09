@@ -23,6 +23,10 @@ img{
 }
 
 .vl{ /*vertical line*/
+    width: 1.5px;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
 
 }
 
@@ -35,31 +39,33 @@ img{
 .bt1{
     width: 358px;
     height: 57px;
+    z-index: 10;
+    margin-top: 275px;
+    
 }
+
+
 
 .bt2{
     display: flex;
     width: 202px;
     height: 47px;
     border: 3px solid var(--blanco);
-    text-align: center;
-    align-items: center;
-    justify-content: center;
     font-family: "Avant-Garde-Gothic-Bold";
     font-size: 22px;
 }
 
 .bt3{
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 274px;
     height: 57px;
+    z-index: 10;
 }
 
 a{
     font-family: "Avant-Garde-Gothic";
     text-align: center;
+    text-decoration: none;
 }
 
 /*------- TEXTO Y FUENTES --------*/
@@ -125,7 +131,7 @@ h4{
 
 /* ---- H5 ---- */
 h5{
-    font-family: "Avant-Garde-Gothic";
+    font-family: "Avant-Garde-Gothic-Bold";
     font-size: 22px;
 }
 
@@ -180,14 +186,7 @@ header{
 }
 /* ---------------- BODY --------------- */
 
-/* ---SECTION 2 --- */
-.seccion2{
-    width: 100%;
-    background-color: var(--fondo1);
-    background-image: url( img/fondo1.png);
-    height: 500px;
-}
-
+/* ---SECTION 1 --- */
 .planta{ /*El fondo */
     background-image: url( img/vectors&logos/hoja1.png);
     background-repeat: no-repeat;
@@ -199,6 +198,49 @@ header{
 .planta:nth-child(2){
     background-image: url( img/vectors&logos/hoja2.png);
 }
+
+.foto1{
+    position: absolute;
+    
+}
+
+
+
+
+/* --- SECTION 2 --- */
+.seccion2{
+    width: 100%;
+    background-color: var(--fondo1);
+    background-image: url( img/fondo1.png);
+    height: 500px;
+}
+
+.imgSection2{
+    width: 90%;
+}
+
+/* --- SECTION3 --- */
+.seccion3{
+    width: 100%;
+    height: 800px;
+ 
+}
+
+.box3{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;    
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+
+.logo3{
+    width: 30%;
+}
+
+
 
 
 /*--------------- FOOTER --------------- */
