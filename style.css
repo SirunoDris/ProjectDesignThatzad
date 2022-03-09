@@ -6,7 +6,7 @@
 
 body{
     font-family: "";
-    color:var(--texto1);
+    color:var(--texto1) !important;
 }
 
 img{
@@ -30,6 +30,10 @@ img{
 
 }
 
+.vl2{ /* Veritcal line */
+    width: 1px;
+}
+
 /*--- BUTTONS ---*/
 .button{
     background-color: var(--primary);
@@ -44,8 +48,6 @@ img{
     
 }
 
-
-
 .bt2{
     display: flex;
     width: 202px;
@@ -56,10 +58,15 @@ img{
 }
 
 .bt3{
-    display: flex;
     width: 274px;
     height: 57px;
     z-index: 10;
+    margin-top: 200px;
+}
+
+.bt4{
+    width: 274px;
+    height: 57px; 
 }
 
 a{
@@ -79,7 +86,7 @@ h1{
 .h12{
     font-size: 36px;
     color: var(--blanco);
-    margin: 30px;
+    
 }
 
 .h13{
@@ -99,7 +106,8 @@ h2{
 h3{
     font-family: "Avant-Garde-Gothic-Bold";
     color: var(--texto2);
-    font-size: 31px;
+    font-size: 35px;
+    text-align: center;
 }
 
 .h31{
@@ -142,7 +150,7 @@ p{
     margin: 0 !important;
 }
 .p1{
-    font-size: 18px;
+    font-size: 17px;
 }
 
 /* ---- // ---- */
@@ -162,7 +170,7 @@ header{
 }
 
 .textshadow{
-    text-shadow: 2px 2px #494949; 
+    text-shadow: 2px 2px 4px #494949; 
     display: flex;
     justify-content: end;
     flex-direction: column;
@@ -176,6 +184,10 @@ header{
 }
 .arrow{
     width: 30px;
+}
+
+.arrow:hover{
+    cursor: pointer;
 }
 
 .logo1{
@@ -212,11 +224,11 @@ header{
     width: 100%;
     background-color: var(--fondo1);
     background-image: url( img/fondo1.png);
-    height: 500px;
+    height: 450px;
 }
 
 .imgSection2{
-    width: 90%;
+    width: 95%;
 }
 
 /* --- SECTION3 --- */
@@ -227,6 +239,7 @@ header{
 }
 
 .box3{
+    padding-top: 10%;
     width: 90%;
     height: 90%;
     display: flex;
@@ -237,22 +250,72 @@ header{
 }
 
 .logo3{
-    width: 30%;
+    width: 40%;
 }
 
+.logo4{
+    width: 30%;
+    margin-bottom: 40px;
+}
 
+/* --- SECTION4 --- */
+
+.seccion4{
+    height: 800px;
+    
+}
+
+.s4text{
+    font-size: 25px;
+}
 
 
 /*--------------- FOOTER --------------- */
+footer{
+    width: 100%;
+    height: 650px;
+}
 #footer{
     width: 100%;
+    height: 100%;
     background-image: url( img/footer.png);
-    background-size: 100% 600px;
+    background-size: 100% 650px;
     background-repeat: no-repeat;
     color: var(--blanco);
-    margin-top: 10%;
-    
+    margin-top: 10%;    
 }
+
+.textfoot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.logotipos2{
+    margin: 30px 0px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footitle{
+    width: 70%;
+    text-align: center;
+
+}
+
+.footcont{
+    height: 200px;
+    width: 100%;
+    text-align: start;
+}
+.footcont2{
+    width: 13%;
+    height: 100px;
+}
+
+
 
 
 
